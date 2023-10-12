@@ -1,0 +1,526 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: #4e4e4e;
+    box-sizing: border-box;
+}
+.navigationBarContainer{
+    background-color: #023b6d !important;
+}
+.logo{
+    width: 170px;
+    height: 25px;
+}
+.navbar{
+    padding:0rem 0.5rem;
+}
+.displaySize{
+    color: white;
+    margin-left: 20px;
+}
+.diviceSize{
+    display: inline-block;
+}
+.navBrand{
+    display: inline-block;
+}
+.displaySize1{
+    color: white;
+}
+.fa-arrow-up-right-from-square{
+    color: rgba(255,255,255,.6);
+}
+.fa-arrow-up-right-from-square:hover{
+    color: white;
+}
+
+.download{
+    background-color: #00a6eb;
+    color: white !important;
+}
+.fa-download{
+    margin-right: 5px;
+}
+.sizes{
+    margin-right: 25px;
+}
+.brands{
+    display: inline-block;
+}
+
+.navigationBar1Container
+{
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+    background-image: url(../images/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.heroContainer{
+    /* background-image: url(../images/hero-bg.jpg); */
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.fa-bars{
+    color: white;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 500;
+}
+#navbarSupportedContent{
+    overflow: auto;
+}
+.heroContainer{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+.title1{
+    float: right;
+}
+.title {
+    display: inline-block;
+    margin-left: 23%;
+}
+.main{
+    background-color: #f5f5f5;
+}
+.ProfileDetail{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.ProfileDetail1{
+    margin-left: 10px;
+}
+.profileImage{
+    border-radius: 10px;
+}
+.bio{
+    margin-bottom: 15px;
+}
+.skill{
+    margin-bottom: 12px;
+    color: black;
+    font-weight: 500;
+    display: block;
+}
+.skillRate{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.sikllValue{
+    margin-left: 5px;
+}
+.progress {
+    height: 13px;
+    margin-bottom: 15px;
+}
+.aboutMe{
+    color: black;
+    margin-bottom: 20px;
+}
+.aboutMe::before{
+    background: #0078ff;
+    content: "";
+    position: absolute;
+    width: 177px;
+    height: 3px;
+    bottom: 340px;
+}
+.aboutMep{
+    font-size: 18px;
+    font-weight: 300;
+}
+.about{
+    box-shadow: 1px 1px 10px gray;
+    position: relative;
+    top: 100px;
+    padding: 50px;
+}
+.commen{
+    text-align: center;
+}
+.commenHead{
+    color: black;
+}
+.commenHead::before{
+    content: "";
+}
+.commen p{
+    font-weight: 300;
+}
+.service{
+    margin-top: 170px;
+}
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+.serviceProductIcon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid #0078ff;
+    margin: 0 auto;
+}
+.serIcon{
+    font-size: 32px;
+    position: relative;
+    top: 26px;
+    color: black;
+}
+.serBox{
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+.serH{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.serP{
+    font-size: 15px;
+}
+.serBox:hover .serviceProductIcon{
+    border: 8px solid #a5c9f1;
+    background-color: #0078ff;
+}
+.serBox:hover .serIcon{
+    color: white;
+}
+.exp{
+    background-image: url(../images/exp.jpg);
+}
+.expContainer{
+    background-image: url(../images/exp.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fill{  
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+.expIcon{
+    height: 60px;
+    width: 60px;
+    border: 5px solid #cde1f8;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.expmIcon{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 1px;
+}
+.expBox{
+    text-align: center;
+    margin-top: 127px;
+}
+.expDetail h1{
+    color: white;
+    margin-top: 10px;
+}
+.expDetail p{
+    color: white;
+}
+.portContent{
+
+}
+.portP{
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.portP1{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.portS{
+    color: blue;
+}
+.portS1{
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    float: right;
+    position: relative;
+    bottom: 35px;
+}
+.fa-plus{
+    color: blue;
+    position: relative;
+    left: 8px;
+    top: 3px;
+}
+.portContent{
+    background-color: white;
+    padding: 15px;
+}
+.portFolio{
+    margin-top: 50px;
+}
+.portContainer{
+    margin-top: 50px;
+}
+.caurosal1{
+    background-image: url('../images/portBack.jpg');
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.caurosal1Contaer{
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+.corImage{
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-item{
+    text-align: center;
+    margin-top: 70px;
+}
+.carouselContent h6{
+    color: white;
+}
+.carouselContent p{
+    color: white;
+}
+.cardHead{
+    color: black;
+}
+.cardImg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.fa-clock{
+    font-size: 13px;
+    margin-right: 3px;
+}
+.cardMin{
+    float: right;
+}
+.cardHead{
+    font-size: 20px;
+}
+.blogCont{
+    margin-top: 30px;
+}
+.blog{
+    margin-top: 50px;
+}
+.contact{
+    background-image: url('../images/portBack.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.contactContainer{
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+.formText{
+    display: block;
+    margin-bottom: 20px;
+}
+.contactContent{
+    background-color: white;
+    position: relative;
+    top: 65px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.formHead{
+    color: black;
+    margin-bottom: 25px;
+}
+.sendButton{
+    text-align: center;
+}
+.msgSpan{
+    position: relative;
+    top: 8px;
+}
+.msgBtn{
+    height: 40px;
+    width: 200px;
+    background: #3393ff;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.conP{
+    font-size: 18px;
+    font-weight: 300;
+}
+.contactIcon{
+    color: #0078ff;
+    margin-right: 10px;
+}
+.sround{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid #0078ff;
+    margin-right: 15px;
+}
+.sm{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+footer{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
+.footerP{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.footerP1{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 992px) {
+    .title1{
+        float: right;
+    }
+    .heroContainer{
+        margin-top: 62px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    .aboutMe::before {
+        display: none;
+    }
+    .cardBox{
+        margin-top: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .diviceSize{
+        display: none;
+    }
+    .navBrand{
+        display: none;
+    }
+    .title1{
+        float: right;
+    }
+    .heroContainer{
+        margin-top: 70px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    .aboutMe::before {
+        display: none;
+    }
+    .portS1{
+        display: none;
+    }
+    .cardBox{
+        margin-top: 20px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .diviceSize{
+        display: none;
+    }
+    .navBrand{
+        display: none;
+    }
+    .title1{
+        float: right;
+    }
+    .heroContainer{
+        margin-top: 62px;
+    }
+    .title{
+        margin-left: 0px;
+    }
+    .aboutMe::before {
+        display: none;
+    }
+    .expBox {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .expContainer {
+        height: 721PX;
+    }
+    .cardBox{
+        margin-top: 20px;
+    }
+    .contact {
+        background-image: none;
+    }
+    .contactContainer{
+        background-color: white;
+    }
+    footer{
+        position: relative;
+        top: 437px;
+    }
+}
+
+
+
+
+
+
+
+
